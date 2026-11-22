@@ -1,0 +1,1 @@
+import type {MetadataRoute} from 'next';export default function manifest():MetadataRoute.Manifest{return {name:'Lena Clean',short_name:'Lena Clean',description:'Čišćenje stanova i poslovnih prostora u Beogradu',start_url:'/',display:'browser',background_color:'#f7f5ef',theme_color:'#263b32'}}

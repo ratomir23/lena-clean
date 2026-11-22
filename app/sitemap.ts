@@ -1,1 +1,1 @@
-import type {MetadataRoute} from 'next';import {services} from '../lib/data';export default function sitemap():MetadataRoute.Sitemap{return ['','/cenovnik','/o-nama','/kontakt',...services.map(s=>'/'+s.slug)].map(path=>({url:'https://lenaclean.rs'+path}))}
+import type {MetadataRoute} from 'next';export default function sitemap():MetadataRoute.Sitemap{return []}

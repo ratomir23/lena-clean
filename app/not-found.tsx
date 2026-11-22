@@ -1,0 +1,1 @@
+import Link from 'next/link';export default function NotFound(){return <main className="pagehead"><div className="wrap"><div className="eyebrow">404</div><h1>Ova stranica ne postoji.</h1><p className="lead">Pogledajte naše usluge ili se vratite na početnu.</p><Link className="button" href="/">Nazad na početnu</Link></div></main>}
